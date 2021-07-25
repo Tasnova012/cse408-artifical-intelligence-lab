@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
-
-
-# Python3 program to print the path from root
-# node to destination node for N*N-1 puzzle
-# algorithm using Branch and Bound
-# The solution assumes that instance of
-# puzzle is solvable
 
 # Importing copy for deepcopy function
 import copy
@@ -214,5 +204,5 @@ empty_tile_pos = [ 1, 2 ]
 # Function call to solve the puzzle
 solve(initial, empty_tile_pos, final)
 
-# This code is contributed by Kevin Joshi
+
 
