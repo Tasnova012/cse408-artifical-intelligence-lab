@@ -1,9 +1,10 @@
 # cse408-artifical-intelligence-lab
 cse408,artifical intelligence lab
- name:tasnova tasnim 
+
+ Name:Tasnova Tasnim 
  
- id:ug02-47-18-012
+ Id:UG02-47-18-012
  
-  batch:47
+  Batch:47
   
-  email:tasnimprity12@gmail.com
+  Email:tasnimprity12@gmail.com
