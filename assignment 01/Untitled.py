@@ -8,7 +8,7 @@ from copy import deepcopy
 from colorama import Fore, Back, Style
 
 DIRECTIONS = {"U": [-1, 0], "D": [1, 0], "L": [0, -1], "R": [0, 1]}
-END = [[1, 2, 3], [4, 5, 6], [7, 8, 0]]
+END = [[1, 2, 3], [8, 0, 4], [7, 6, 5]]
 
 # unicode
 left_down_angle = '\u2514'
@@ -140,9 +140,9 @@ def main(puzzle):
 
 
 if __name__ == '__main__':
-    br = main([[6, 2, 8],
-               [4, 7, 1],
-               [0, 3, 5]])
+    br = main([[8, 1, 2],
+               [3, 6, 4],
+               [0, 7, 5]])
 
     print('total steps : ', len(br) - 1)
     print()
